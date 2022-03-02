@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Location"
+        android:text="@string/location"
         android:fontFamily="sans-serif-condensed-light"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
@@ -25,7 +25,7 @@
             android:id="@+id/tv_labellat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Latitude"
+            android:text="@string/latitude"
             android:padding="2dp"
             android:layout_marginStart="10dp"
             android:fontFamily="sans-serif-condensed"
@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="75dp"
-            android:text="0.0"
+            android:text="@string/_0_0"
             android:id="@+id/tv_lat"
             android:fontFamily="sans-serif-condensed"
             android:textColor="#FFFFFF"
@@ -51,7 +51,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Longitude"
+            android:text="@string/longitude"
             android:id="@+id/tv_labellon"
             android:padding="2dp"
             android:layout_marginStart="10dp"
@@ -63,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="62dp"
-            android:text="0.0"
+            android:text="@string/_0_0"
             android:fontFamily="sans-serif-condensed"
             android:id="@+id/tv_lon"
             android:textColor="#FFFFFF"
@@ -78,7 +78,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Altitude"
+            android:text="@string/altitude"
             android:id="@+id/tv_labelaltitude"
             android:padding="2dp"
             android:layout_marginStart="10dp"
@@ -90,7 +90,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="75dp"
-            android:text="0.0"
+            android:text="@string/_0_0"
             android:id="@+id/tv_altitude"
             android:fontFamily="sans-serif-condensed"
             android:textColor="#FFFFFF"
@@ -105,7 +105,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Accuracy"
+            android:text="@string/accuracy"
             android:id="@+id/tv_labelaccuracy"
             android:padding="2dp"
             android:layout_marginStart="10dp"
@@ -117,7 +117,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="64dp"
-            android:text="0.0"
+            android:text="@string/_0_0"
             android:id="@+id/tv_accuracy"
             android:fontFamily="sans-serif-condensed"
             android:textColor="#FFFFFF"
@@ -132,7 +132,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Speed"
+            android:text="@string/speed"
             android:id="@+id/tv_labelspeed"
             android:padding="2dp"
             android:layout_marginStart="10dp"
@@ -144,7 +144,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="85dp"
-            android:text="0.0"
+            android:text="@string/_0_0"
             android:id="@+id/tv_speed"
             android:fontFamily="sans-serif-condensed"
             android:textColor="#FFFFFF"
@@ -159,7 +159,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Address"
+            android:text="@string/address"
             android:id="@+id/tv_lbladdress"
             android:padding="2dp"
             android:layout_marginStart="10dp"
@@ -188,7 +188,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Updates"
+            android:text="@string/updates"
             android:id="@+id/tv_labelupdates"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
@@ -208,7 +208,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Location is being tracked"
+        android:text="@string/location_is_being_tracked"
         android:id="@+id/tv_updates"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
@@ -229,7 +229,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="GPS / Save Power"
+            android:text="@string/gps_save_power"
             android:textColor="#FFFFFF"
             android:textStyle="bold"
             android:layout_marginStart="10dp"
@@ -248,7 +248,7 @@
             android:layout_width="wrap_content"
             android:id="@+id/tv_labelsensor"
             android:layout_height="wrap_content"
-            android:text="Sensor"
+            android:text="@string/sensor"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -258,7 +258,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cell Tower + WIFI"
+            android:text="@string/cell_tower_wifi"
             android:id="@+id/tv_sensor"
             android:textColor="#FFFFFF"
             android:textSize="15sp"
@@ -280,20 +280,20 @@
             android:id="@+id/btn_newWaypoint"
             android:layout_height="wrap_content"
             android:layout_marginStart="0dp"
-            android:text="NEW WAYPOINT"/>
+            android:text="@string/new_waypoint"/>
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
             android:id="@+id/btn_showWaypoint"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
-            android:text="SHOW WAYPOINT"/>
+            android:text="@string/show_waypoint"/>
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btn_showMap"
             android:layout_marginEnd="5dp"
-            android:text="SHOW MAP"/>
+            android:text="@string/show_map"/>
     </LinearLayout>
 
    <!-- <LinearLayout
