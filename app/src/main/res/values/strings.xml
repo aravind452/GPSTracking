@@ -4,4 +4,20 @@
     <string name="_0_00">0.00</string>
     <string name="lon">lon:</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="location">Location</string>
+    <string name="latitude">Latitude</string>
+    <string name="_0_0">0.0</string>
+    <string name="longitude">Longitude</string>
+    <string name="altitude">Altitude</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="speed">Speed</string>
+    <string name="address">Address</string>
+    <string name="updates">Updates</string>
+    <string name="location_is_being_tracked">Location is being tracked</string>
+    <string name="gps_save_power">GPS / Save Power</string>
+    <string name="sensor">Sensor</string>
+    <string name="cell_tower_wifi">Cell Tower + WIFI</string>
+    <string name="new_waypoint">NEW WAYPOINT</string>
+    <string name="show_waypoint">SHOW WAYPOINT</string>
+    <string name="show_map">SHOW MAP</string>
 </resources>
